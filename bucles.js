@@ -90,3 +90,42 @@ do {
     console.log(b);
     b++;
 } while(b < 5)
+
+// .forEach
+
+const numeros1 = [1,2,3,4,5,6,7,8,9,10];
+
+numeros1.forEach((numeros1) => {
+    console.log(numeros1);
+})
+
+// Ejercicio: Realiza de object de alumnos
+// Los datos de los alumnos son nombre, sexo, y edad
+// imprime su nombre y edad por consola usando for each
+
+const datosAlumnos = [
+    {
+        nombre: "Pedro",
+        sexo: "Masculino",
+        edad: 55,
+    },
+    {
+        nombre: "Valdemar",
+        sexo: "Masculino",
+        edad: 65,
+    },
+    {
+        nombre: "Vladimir",
+        sexo: "Masculino",
+        edad: 59,
+    },
+    {
+        nombre: "Dina",
+        sexo: "Femenino",
+        edad: 60,
+    }
+];
+
+datosAlumnos.forEach((datosAlumnos) => {
+    console.log(datosAlumnos.nombre, datosAlumnos.edad);
+})
