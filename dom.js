@@ -55,3 +55,40 @@ botonDeRegistro.style.color = "white";
 botonDeRegistro.style.padding = "10px"
 
 console.log(botonDeRegistro);
+
+//
+const input_correo = document.querySelector(".input_mail");
+
+input_correo.style.padding = "20px";
+input_correo.style.border = "green, solid";
+input_correo.style.backgroundColor = "yellow";
+
+console.log(input_correo);
+
+//
+
+const inputPass = document.querySelector("#pass");
+
+inputPass.style.padding = "20px";
+inputPass.style.backgroundColor = "rgb(249, 231, 159)";
+inputPass.style.border = "rgb(105, 205, 59), solid";
+
+console.log(inputPass);
+
+//
+
+const inputNombre = document.querySelector("form > input:nth-child(3)");
+
+inputNombre.style.padding = "20px";
+inputNombre.style.backgroundColor = "rgb(244, 250, 73)";
+inputNombre.style.border = "rgb(184, 236, 160), solid";
+
+console.log(inputNombre);
+
+// 
+
+const formFlex = document.querySelector("form");
+
+formFlex.style.display = "flex";
+formFlex.style.flexDirection = "column";
+formFlex.style.gap = "10px";
